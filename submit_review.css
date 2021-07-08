@@ -1,0 +1,83 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #01040a;
+}
+
+.submit_container{
+    background-image: linear-gradient(to bottom right, thistle, white);
+    width: 80%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+textarea{
+    background-image: linear-gradient(to bottom right, #f8fcc9, white);
+    border: #fff8dc 5px solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    font-size: 16pt;
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], select:hover{
+    background-color: rgb(224, 223, 223);
+}
+
+option{
+    background-color: lavenderblush;
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px black solid;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px grey;
+    transition: 0.2s;
+}
+
+input[type=submit]:hover {
+    transform: translate(-2px,-2px);
+    box-shadow: 4px 4px 4px grey;
+}
+
+input[type=submit]:active {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px 2px grey;
+}
+
+select{
+    border: 2px thistle solid;
+    transition: 0.2s ease-in;
+}
+select:hover {
+    border: 2px solid black;
+}
+
+textarea{
+    border: thistle 2px solid;
+    padding: 5px;
+    transition: ease-in 0.2s;
+}
+
+textarea:hover {
+    border: 2px black solid;
+}
